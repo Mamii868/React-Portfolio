@@ -4,7 +4,7 @@ function Navbar() {
 
 
     return (
-    <nav className="navbar navbar-expand navbar-dark bg-dark" id="navbar">
+    <nav className="navbar navbar-expand navbar-dark" id="navbar">
     <div className="container-fluid">
       <a className="navbar-brand" href="/">Marc Moten</a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
