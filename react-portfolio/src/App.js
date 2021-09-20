@@ -3,6 +3,7 @@ import './App.css';
 import Intro from './components/Intro';
 import Navbar from './components/Navbar';
 import About from './components/About';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <Intro />
       <div className="container">
       <About />
+      <hr className= "lineBreak"/>
+      <Projects />
     
     </div>
     </div>
