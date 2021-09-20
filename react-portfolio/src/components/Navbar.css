@@ -2,4 +2,6 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    background-color: rgb(41, 50, 65);
+    opacity: 100%;
 }
