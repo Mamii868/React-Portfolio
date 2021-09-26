@@ -12,9 +12,9 @@ function Navbar() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav">
-          <a className="nav-link" href="#About">About Me</a>
-          <a className="nav-link" href="#Projects">Resume/Projects</a>
-          <a className="nav-link" href="https://github.com/Mamii868">Github</a>
+          <a className="nav-link" href="#About">About</a>
+          <a className="nav-link" href="#Projects">Projects</a>
+          <a className="nav-link" href="/">Resume</a>
         </div>
       </div>
     </div>
