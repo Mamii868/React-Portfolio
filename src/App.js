@@ -17,6 +17,7 @@ function App() {
       <About />
       <hr className= "lineBreak"/>
       <Projects />
+      <hr className= "lineBreak"/>
       <Contact/>
     </div>
     </div>

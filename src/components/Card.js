@@ -7,6 +7,7 @@ import './Card.css'
 
 function Card() {
     return (
+      <div class="container-fluid">
         <div class= "row">
             <div class="card  col-md-4 col-xs-4">
   <img src= {Defi101} class="card-img-top" alt="DeFi101 homepage"/>
@@ -34,6 +35,7 @@ function Card() {
     <Button>Go Somewhere</Button>
   </div>
 </div>
+        </div>
         </div>
     )
 }
