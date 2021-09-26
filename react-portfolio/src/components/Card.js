@@ -7,8 +7,8 @@ import './Card.css'
 
 function Card() {
     return (
-        <div class= "card-group">
-            <div class="card">
+        <div class= "row">
+            <div class="card col-lg-4 col-md-4 col-xs-4">
   <img src= {Defi101} class="card-img-top" alt="DeFi101 homepage"/>
   <div class="card-body">
     <h5 class="card-title">DeFi101</h5>
@@ -16,7 +16,7 @@ function Card() {
     <Button>Go Somewhere</Button>
   </div>
 </div>
-<div class="card">
+<div class="card col-lg-4 col-md-4 col-xs-4">
   <img src={colSS} class="card-img-top" alt="Collection Social Share homepage"/>
   <div class="card-body">
     <h5 class="card-title">Collection Social Share</h5>
@@ -26,7 +26,7 @@ function Card() {
 </a>
   </div>
 </div>
-<div class="card">
+<div class="card col-lg-4 col-md-4 col-xs-4">
   <img src={me} class="card-img-top" alt="placeholder"/>
   <div class="card-body">
     <h5 class="card-title">Placeholder</h5>

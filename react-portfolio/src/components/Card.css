@@ -1,8 +1,14 @@
 .card {
     width: 18rem;
-    max-height: 500px
+
 }
 
 .card-img-top {
-    height: 500px;
+    height: 350px;
+    width: auto;
+}
+
+.card:hover {
+    box-shadow: 10px;
+    transition: ease 250ms;
 }
