@@ -1,6 +1,6 @@
 .card {
     width: 18rem;
-
+    justify-content: space-evenly;
 }
 
 .card-img-top {
