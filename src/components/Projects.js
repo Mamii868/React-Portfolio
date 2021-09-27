@@ -3,11 +3,11 @@ import Card from './Card';
 
 function Projects() {
     return (
-        <projects>
+        <div>
             <h2 className="title" id="Projects">Projects</h2>
         <Card />
             
-        </projects>
+        </div>
     )
 }
 
