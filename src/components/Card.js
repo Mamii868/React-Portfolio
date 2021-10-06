@@ -64,7 +64,7 @@ function AppCards() {
         </Typography>
       </CardContent>
       <CardActions>
-      <Button variant= "contained" size="small" href="https://mamii868.github.io/collection_social_share/">Website</Button>
+      <Button variant= "contained" size="small" href="https://collection-social-share.herokuapp.com/">Website</Button>
         <Button size="small" variant="contained"href="https://github.com/Mamii868/collection_social_share">Repository</Button>
       </CardActions>
     </Card>
