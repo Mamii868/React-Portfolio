@@ -1,8 +1,10 @@
 import React from "react";
 import "./Navbar.css"
+import Pdf from "../assets/Web-Development-Resume.pdf"
 function Navbar() {
-
-
+  function openResume() {
+    window.open(Pdf);
+  };
     return (
     <nav className="navbar navbar-expand navbar-dark" id="navbar">
     <div className="container-fluid">
@@ -14,7 +16,7 @@ function Navbar() {
         <div className="navbar-nav">
           <a className="nav-link" href="#About">About</a>
           <a className="nav-link" href="#Projects">Projects</a>
-          <a className="nav-link" href="../assets/Web-Development-Resume.pdf">Resume</a>
+          <a className="nav-link" href="#Top" onClick= {openResume}>Resume</a>
         </div>
       </div>
     </div>
