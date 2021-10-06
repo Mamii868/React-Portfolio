@@ -42,8 +42,8 @@ function AppCards() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button variant= "contained" size="small" href= "">Website</Button>
-        <Button size="small" variant="contained">Repository</Button>
+        <Button variant= "contained" size="small" href= "https://mamii868.github.io/Defi-101/">Website</Button>
+        <Button size="small" variant="contained" href="https://github.com/Mamii868/Defi-101">Repository</Button>
       </CardActions>
     </Card>
     </Grid>
@@ -64,8 +64,8 @@ function AppCards() {
         </Typography>
       </CardContent>
       <CardActions>
-      <Button variant= "contained" size="small">Website</Button>
-        <Button size="small" variant="contained">Repository</Button>
+      <Button variant= "contained" size="small" href="https://mamii868.github.io/collection_social_share/">Website</Button>
+        <Button size="small" variant="contained"href="https://github.com/Mamii868/collection_social_share">Repository</Button>
       </CardActions>
     </Card>
     </Grid>
@@ -86,8 +86,7 @@ function AppCards() {
         </Typography>
       </CardContent>
       <CardActions>
-      <Button variant= "contained" size="small">Website</Button>
-        <Button size="small" variant="contained">Repository</Button>
+        <Button size="small" variant="contained" href="https://github.com/Mamii868/Useful-README-Generator">Repository</Button>
       </CardActions>
     </Card>
         </Grid>
