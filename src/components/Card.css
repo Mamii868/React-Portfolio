@@ -4,7 +4,7 @@
 
 .card {
     width: 18rem;
-
+    border-color: black;
 }
 
 .card-img-top {

@@ -2,7 +2,7 @@ import React from 'react';
 // import Button from './Button';
 import Defi101 from '../images/Defi101.PNG';
 import colSS from '../images/ColSS.PNG';
-import ReadmeGen from '../images/ReadmeGenerator.PNG';
+import apptrack from '../images/app-track.PNG';
 import './Card.css'
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -37,7 +37,7 @@ function AppCards() {
         <Typography gutterBottom variant="h5" component="div">
           DeFi101
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.secondary" padding="6px">
         Check cryptocurrency prices with multiple currencies as well as see recent news reguarding that currency.
         </Typography>
       </CardContent>
@@ -74,19 +74,20 @@ function AppCards() {
       <CardMedia
         component="img"
         height="140"
-        image={ReadmeGen}
+        image={apptrack}
         alt="Homepage"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Readme Generator
+          App Track
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-        A program that generates a Readme markdown file to be used in Github repositories
+        <Typography variant="body2" color="text.secondary" padding="6px">
+        An application used to keep track of a user's job applications and organize them based on responses.
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small" variant="contained" href="https://github.com/Mamii868/Useful-README-Generator">Repository</Button>
+      <Button variant= "contained" size="small" href="https://powerful-reaches-64620.herokuapp.com">Website</Button>
+        <Button size="small" variant="contained" href="https://github.com/Mamii868/app-track">Repository</Button>
       </CardActions>
     </Card>
         </Grid>
