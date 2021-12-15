@@ -1,7 +1,7 @@
 
 import './App.css';
 import Intro from './components/Intro';
-import Navbar from './components/Navbar';
+import Navigation from './components/Navbar';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -10,10 +10,9 @@ function App() {
   return (
 
     <div className="App">
-  
-      <Navbar />
+      <Navigation />
       <Intro />
-      <div className="container">
+      <div className="topPage">
       <About />
       <hr className= "lineBreak"/>
       <Projects />

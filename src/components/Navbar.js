@@ -1,27 +1,22 @@
 import React from "react";
 import "./Navbar.css"
 import Pdf from "../assets/Web-Development-Resume.pdf"
-function Navbar() {
-  function openResume() {
-    window.open(Pdf);
-  };
+import { Navbar } from "react-bootstrap";
+import { Container } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
+function Navigation() {
     return (
-    <div className="navbar navbar-expand navbar-dark" id="navbar">
-    <div className="container-fluid">
-      <a className="navbar-brand" href="/">Marc Moten</a>
-      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div className="navbar-nav">
-          <a className="nav-link" href="#About">About</a>
-          <a className="nav-link" href="#Projects">Projects</a>
-          <a className="nav-link" href="#Top" onClick= {openResume}>Resume</a>
-        </div>
-      </div>
-    </div>
-  </div>
+      <Navbar bg="dark" variant="dark">
+    <Container>
+    <Navbar.Brand href="#home">Marc Moten</Navbar.Brand>
+    <Nav className="me-auto">
+      <Nav.Link href="#About">About</Nav.Link>
+      <Nav.Link href="#Projects">Projects</Nav.Link>
+      <Nav.Link href={Pdf}>Resume</Nav.Link>
+    </Nav>
+    </Container>
+  </Navbar>
     )
 }
 
-export default Navbar;
+export default Navigation;

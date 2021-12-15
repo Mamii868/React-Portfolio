@@ -17,9 +17,11 @@ body {
 
 }
 
-.container {
+.topPage {
   width: 90%;
   margin-top: 500px;
+  margin-right: auto;
+  margin-left: auto;
   background-color: rgb(224, 251, 252);
   height: fit-content;
   max-width: 100%;
