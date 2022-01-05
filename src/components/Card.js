@@ -38,7 +38,7 @@ function AppCards() {
           DeFi101
         </Typography>
         <Typography variant="body2" color="text.secondary" padding="6px">
-        Check cryptocurrency prices with multiple currencies as well as see recent news reguarding that currency.
+        Check cryptocurrency prices with multiple currencies as well as see recent news reguarding that currency. Uses HTML, CSS, and Javascript.
         </Typography>
       </CardContent>
       <CardActions>
@@ -60,7 +60,7 @@ function AppCards() {
         Collection Social Share
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        Social media website to upload collections of items and show off to the world!
+        Social media website to upload collections of items and show off to the world! Uses Javascript, MySQL, NodeJS, and Express.
         </Typography>
       </CardContent>
       <CardActions>
@@ -82,7 +82,7 @@ function AppCards() {
           App Track
         </Typography>
         <Typography variant="body2" color="text.secondary" padding="6px">
-        An application used to keep track of a user's job applications and organize them based on responses.
+        An application used to keep track of a user's job applications and organize them based on responses. Uses Javascript, MySQL, NodeJS, React, GraphQL, and Express
         </Typography>
       </CardContent>
       <CardActions>
