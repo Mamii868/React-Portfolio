@@ -11,11 +11,12 @@ export default function Contact() {
     return(
         <div>
             <h2 className= "title">Contact Me</h2>
-           <a className="icon" href='https://github.com/Mamii868'> <FontAwesomeIcon icon= {faGithub}/> </a>
-           <a className="icon" href='https://linkedin.com/in/marcmotenii'> <FontAwesomeIcon icon= {faLinkedin}/> </a>
-           <a className="icon" href='tel:972-971-3397'> <FontAwesomeIcon icon= {faPhone}/> </a>
-           <a className="icon" href='mailto:marcmotenii@gmail.com'> <FontAwesomeIcon icon= {faEnvelope}/> </a>
-
+            <ul className="list">
+                <li><a className="icon" href='https://github.com/Mamii868'> <FontAwesomeIcon icon= {faGithub}/> Mamii868</a></li>
+                <li><a className="icon" href='https://linkedin.com/in/marcmotenii'> <FontAwesomeIcon icon= {faLinkedin}/> marcmotenii</a></li>
+                <li><a className="icon" href='tel:972-971-3397'> <FontAwesomeIcon icon= {faPhone}/> 972-971-3397</a></li>
+                <li><a className="icon" href='mailto:marcmotenii@gmail.com'> <FontAwesomeIcon icon= {faEnvelope}/> marcmotenii@gmail.com</a></li>
+            </ul>
         </div>
     )
 }

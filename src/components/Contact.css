@@ -5,3 +5,7 @@
     transition: ease 250ms;
     padding: 10px;
 }
+
+.list{
+    list-style: none;
+}
