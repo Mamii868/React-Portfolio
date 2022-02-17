@@ -1,0 +1,15 @@
+.sIcon{
+    font-size: 50px;
+    text-decoration: none;
+    padding: 10px;
+}
+svg {  
+    font-size: 50px;
+    text-decoration: none;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.margins {
+    margin-left: 25px;
+}
