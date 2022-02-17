@@ -4,8 +4,19 @@
     color: #3d5a80;
     transition: ease 250ms;
     padding: 10px;
+    
 }
 
 .list{
     list-style: none;
+    font-size: 50px;
+    text-decoration: none;
+    color: #3d5a80;
+    transition: ease 250ms;
+    padding: 10px;
+}
+
+.inIcon {
+    margin-bottom: 0;
+    padding-right: 15px;
 }
