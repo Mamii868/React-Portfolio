@@ -10,7 +10,7 @@ function Navigation() {
   };
     return (
       <Navbar bg="dark" variant="dark">
-    <Container id="container">
+    <Container>
     <Navbar.Brand href="#home">Marc Moten</Navbar.Brand>
     <Nav className="me-auto">
       <Nav.Link href="#About">About</Nav.Link>
