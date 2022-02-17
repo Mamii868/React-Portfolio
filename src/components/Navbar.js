@@ -14,7 +14,9 @@ function Navigation() {
     <Navbar.Brand href="#home">Marc Moten</Navbar.Brand>
     <Nav className="me-auto">
       <Nav.Link href="#About">About</Nav.Link>
+      <Nav.Link href="#Skills">Skills</Nav.Link>
       <Nav.Link href="#Projects">Projects</Nav.Link>
+      <Nav.Link href="#Contact">Contact Me</Nav.Link>
       <Nav.Link onClick={onResumeClick}>Resume</Nav.Link>
     </Nav>
     </Container>
