@@ -1,14 +1,18 @@
 import React from "react";
 import "./About.css";
 import personalPicture from "../images/PersonalPicture.jpeg";
+import { Container } from "react-bootstrap";
 function About() {
   return (
     <div id="About">
       <h2 className="title">About</h2>
       <div className="AboutDiv">
+        <div className="picDiv">
         <img src={personalPicture} alt="Myself" id="personalPicture" />
+        </div>
         <div id="aboutInfo">
-          <p>
+          <Container fluid>
+          <p id="aboutText">
             {" "}
             I am a full stack developer prepared to learn and develop my skills
             through experience. I have recently received a certificate in full
@@ -22,6 +26,7 @@ function About() {
             the world of coding I aim to constantly hone my skills as well as
             gear apps I work on to provide the best user experience.
           </p>
+          </Container>
         </div>
       </div>
     </div>

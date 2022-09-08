@@ -1,24 +1,81 @@
-#personalPicture {
-    max-width: 60%;
-    height: auto;
-    /* padding-left: 10px;
-    padding-right: 20px;
-    padding-bottom: 20px; */
-}
 
 #aboutInfo {
-    width: 500px;
+    
+    width: 75%;
     margin-left: 40px;
     margin-right: 10px;
     font-size: 20px;
     text-indent: 100px;
+    border-color:rgb(61, 90, 128);
+    background-color: rgb(61, 90, 128);
+    border-radius: 15px;
+    color: white;
+    padding: 4%;
+    margin-top: 0;
+}
+
+#aboutText {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .AboutDiv {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
     margin-right: 20px;
     margin-left: 20px;
+    align-items: stretch;
+    align-content: center;
+    height: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 100%;
 }
+.picDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+@media (max-width: 1230px) {
+    .AboutDiv {
+     display: grid;
+     grid-template-columns: 1fr;
+     padding: 1em;
+     grid-row-gap: 20px;
+     align-content: center;
+    height: 100%;
+     margin: auto;
+     padding: 0;
+     justify-content: space-evenly;
+    }
+    #aboutInfo {
+        margin: auto;
+        width: 85%;
+
+    }
+    #personalPicture {
+        display:flex ;
+        align-items: center;
+        justify-content: center;
+    }
+    .picDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+    }
+ }
+ 
+ @media (max-width: 510px) {
+    #personalPicture {
+        width: 100%;
+        height: 100%;
+    }
+    #aboutInfo{
+        width: 100%;
+
+    }
+ }
