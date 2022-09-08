@@ -14,6 +14,7 @@
     color: #3d5a80;
     transition: ease 250ms;
     padding: 10px;
+    margin-left: 25px;
 }
 
 .inIcon {
@@ -21,7 +22,7 @@
     padding-right: 15px;
 }
 
-@media (max-width: 739px) {
+@media (max-width: 758px) {
     .list {
         display: flex;
         flex-direction: column;
@@ -33,7 +34,7 @@
 
 }
 
-@media (max-width: 535px) {
+@media (max-width: 630px) {
 .iconText {
     display: none;
 }
