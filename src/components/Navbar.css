@@ -3,13 +3,3 @@
         text-align: center;
     }
 }
-
-#navbar {
-    position: -webkit-sticky;
-    position: fixed;
-    top: 0;
-    background-color: rgb(41, 50, 65);
-    opacity: 100%;
-    width: 100%;
-    z-index: 999;
-}
