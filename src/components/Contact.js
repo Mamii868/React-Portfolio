@@ -10,13 +10,15 @@ library.add(fab, faGithub, faLinkedin, faEnvelope);
 export default function Contact() {
   return (
     <div>
-      <h2 className="title" id="Contact">Contact Me</h2>
+      <h2 className="title" id="Contact">
+        Contact Me
+      </h2>
       <ul className="list">
         <li>
           <a className="icon" id="github" href="https://github.com/Mamii868">
             {" "}
             <FontAwesomeIcon className="inIcon" icon={faGithub} />
-            Mamii868{" "}
+            <span className="iconText">Mamii868</span>{" "}
           </a>
         </li>
         <li>
@@ -27,21 +29,21 @@ export default function Contact() {
           >
             {" "}
             <FontAwesomeIcon className="inIcon" icon={faLinkedin} />
-            marcmotenii{" "}
+            <span className="iconText">marcmotenii</span>{" "}
           </a>
         </li>
         <li>
           <a className="icon" id="phone" href="tel:972-971-3397">
             {" "}
             <FontAwesomeIcon className="inIcon" icon={faPhone} />
-            972-971-3397{" "}
+            <span className="iconText">972-971-3397</span>{" "}
           </a>
         </li>
         <li>
           <a className="icon" id="email" href="mailto:marcmotenii@gmail.com">
             {" "}
             <FontAwesomeIcon className="inIcon" icon={faEnvelope} />
-            marcmotenii@gmail.com{" "}
+            <span className="iconText">marcmotenii@gmail.com</span>{" "}
           </a>
         </li>
       </ul>
