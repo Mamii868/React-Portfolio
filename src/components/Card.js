@@ -23,10 +23,10 @@ function AppCards() {
   })
     return (
       
-      <Grid container spacing= {2} justifyContent="center">
+      <Grid container spacing= {2} justifyContent="center" alignItems="stretch">
       <ThemeProvider theme = {theme}>
-        <Grid item lg={3}>
-         <Card sx={{ maxWidth: 345 }}>
+        <Grid item lg={3} style={{display: 'flex'}}>
+         <Card sx={{ maxWidth: 345 }} style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}>
       <CardMedia
         component="img"
         height="140"
@@ -47,8 +47,8 @@ function AppCards() {
       </CardActions>
     </Card>
     </Grid>
-    <Grid item lg={3}>
-    <Card sx={{ maxWidth: 345 }}>
+    <Grid item lg={3} style={{display: 'flex'}}>
+    <Card sx={{ maxWidth: 345 }} style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}>
       <CardMedia
         component="img"
         height="140"
@@ -69,8 +69,8 @@ function AppCards() {
       </CardActions>
     </Card>
     </Grid>
-    <Grid item lg={3}>
-    <Card sx={{ maxWidth: 345 }}>
+    <Grid item lg={3} style={{display: 'flex'}}>
+    <Card sx={{ maxWidth: 345 }} style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}>
       <CardMedia
         component="img"
         height="140"
