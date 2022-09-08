@@ -45,3 +45,36 @@ body {
   margin-bottom: 25px;
   padding-top: 15px;
 }
+.lineBreak {
+  display: block;
+  height: 6px;
+  border: 0px;
+  width: 100%;
+  margin: 10px;
+  margin-bottom: 35px;
+  padding:3px;
+  color:rgb(238, 108, 77) ;
+  border-color: rgb(238, 108, 77);
+  background-color: rgb(238, 108, 77);
+  opacity: 1;
+}
+
+.hiddenLine {
+  display: block;
+  height: 6px;
+  border: 0px;
+  width: 100%;
+  margin: 10px;
+  margin-bottom: 35px;
+  padding:3px;
+  color:rgb(238, 108, 77) ;
+  border-color: rgb(224, 251, 252);
+  background-color: rgb(224, 251, 252);
+  opacity: 1;
+}
+.topLine {
+  display: block;
+  height: 0;
+  width: 0%;
+  margin: 0;
+}

@@ -4,7 +4,7 @@ import personalPicture from "../images/PersonalPicture.jpeg";
 import { Container } from "react-bootstrap";
 function About() {
   return (
-    <div id="About">
+    <div>
       <h2 className="title">About</h2>
       <div className="AboutDiv">
         <div className="picDiv">

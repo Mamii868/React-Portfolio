@@ -4,7 +4,7 @@ import Card from './Card';
 function Projects() {
     return (
         <div>
-            <h2 className="title" id="Projects">Projects</h2>
+            <h2 className="title">Projects</h2>
         <Card />
             
         </div>

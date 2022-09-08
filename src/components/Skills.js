@@ -5,7 +5,7 @@ import "./Skills.css";
 function Skills() {
   return (
     <div className="Skills">
-      <h2 className="title" id="Skills" >Skills</h2>
+      <h2 className="title">Skills</h2>
       <div className="skillBox">
       <div className="margins">
       <Tooltip title="HTML5" arrow>

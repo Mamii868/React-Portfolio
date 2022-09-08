@@ -5,20 +5,21 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Skills from "./components/Skills";
-import Line from "./components/Line";
 
 function App() {
   return (
     <div className="App">
+         <hr id="home" className="topLine"></hr>
       <Navigation />
       <Intro />
       <div className="topPage">
+        <hr id="About" className="hiddenLine"></hr>
         <About />
-        <Line />
+        <hr id="Skills" className="lineBreak"></hr>
         <Skills />
-        <Line />
+        <hr id="Projects" className="lineBreak"></hr>
         <Projects />
-        <Line />
+        <hr id="Contact" className="lineBreak"></hr>
         <Contact />
       </div>
     </div>

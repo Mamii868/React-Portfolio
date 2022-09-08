@@ -10,7 +10,7 @@ library.add(fab, faGithub, faLinkedin, faEnvelope);
 export default function Contact() {
   return (
     <div>
-      <h2 className="title" id="Contact">
+      <h2 className="title">
         Contact Me
       </h2>
       <ul className="list">
