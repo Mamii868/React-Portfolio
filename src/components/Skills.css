@@ -8,8 +8,22 @@
     text-decoration: none;
     padding: 5px;
     margin-bottom: 25px;
-    margin-right: 4%;
+    margin-right: 75px;
 }
+.skillBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
 .margins {
-    margin-left: 25px;
+    flex: 1;
+   
+}
+
+@media (max-width: 1285px) {
+    .skillIcon {
+        margin-right: 25px;
+    }
 }
