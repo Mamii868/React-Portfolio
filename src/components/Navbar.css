@@ -1,3 +1,9 @@
+@media (max-width: 600px) {
+    .navbar {
+        text-align: center;
+    }
+}
+
 #navbar {
     position: -webkit-sticky;
     position: fixed;
