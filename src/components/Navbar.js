@@ -7,7 +7,7 @@ function Navigation() {
     window.open(Pdf);
   };
     return (
-  <Navbar bg="dark" expand="lg" variant="dark" className="navbar" fixed="top">
+  <Navbar collapseOnSelect bg="dark" expand="lg" variant="dark" className="navbar" fixed="top">
   <Container>
     <Navbar.Brand href="#home">Marc Moten</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
