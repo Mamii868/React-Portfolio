@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css"
-import Pdf from "../assets/New Resume.pdf"
+import Pdf from "../assets/Tech-Resume.pdf"
 import { Navbar, Container, Nav } from "react-bootstrap";
 function Navigation() {
   function onResumeClick() {
